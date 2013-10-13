@@ -20,7 +20,7 @@ public class WMAFixes extends JavaPlugin implements Listener {
     public void onBlockFromTo(BlockFromToEvent event) {
       int id = event.getBlock().getTypeId();
       if(id == 8 || id == 9) {
-    	  getLogger().info("user placed water!");
+    	  getLogger().info("a user placed water!");
         event.setCancelled(true);
       }
     }
