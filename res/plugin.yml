@@ -1,6 +1,7 @@
 name: WMAFixes
 main: im.wma.dev.wmafixes.WMAFixes
 version: ${version}
+website: http://wma.im
 commands:
   wmafixes:
     description: TODO.
