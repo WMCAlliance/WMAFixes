@@ -1,11 +1,12 @@
 package im.wma.dev.wmafixes;
 
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockFromToEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
-public class LiquidStop extends JavaPlugin {
+public class LiquidStop extends JavaPlugin implements Listener {
 	
 	// Water and Lava
     @EventHandler
