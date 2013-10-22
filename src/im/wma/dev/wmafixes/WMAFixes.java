@@ -9,7 +9,8 @@ public class WMAFixes extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
     }
     
-	public void onDisable(){
-	}
+    public void onDisable(){
+    	
+    }
    
 }
